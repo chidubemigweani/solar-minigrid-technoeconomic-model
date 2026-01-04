@@ -22,9 +22,8 @@ The tool bridges the gap between engineering design (load sizing) and investment
 * **Optimization:** Customer segmentation reduced the required battery bank size by **15%**, saving ~$30,000 in upfront CAPEX.
 
 ## 📂 Project Structure
-* `src/financial_model.py` - The core Python logic for load forecasting.
-* `reports/Investment_Memo.pdf` - A summary of the financial findings.
-* `dashboards/sensitivity_chart.png` - Visualization of the tariff vs. revenue risk.
+* `customer_scoring_algorithm.py` - A geospatial ranking engine that segments potential market sites using weighted economic indicators.
+* `financial_projections_model.py` - A Python-based financial model that calculates 10-year Cash Flows, NPV, and CAPEX requirements for infrastructure investment.
 
 ---
 *Note: Data and specific company metrics have been anonymized for confidentiality.*
